@@ -50,19 +50,19 @@ const DeliveringSection = () => {
         DELIVERING SUSTAINABLE DESIGN SOLUTIONS.
       </div>
       <div className="grid md:grid-cols-4 grid-cols-1 gap-5 px-5 mt-10">
-        {data.map((item) => (
+        {data.length>0 &&  data.map((item) => (
           <div
-            key={item.id}
+            key={item?.id}
             className="bg-gradient-to-r from-[#d8e8dfd1] to-[#F2EEDE] rounded-3xl flex flex-col p-5 items-center justify-center"
           >
             <Image
-              src={item.imageSrc}
-              alt={item.title}
+              src={item?.imageSrc || ""}
+              alt={item?.title || ""}
               height={200}
               width={200}
             />
             <div className="text-xl -translate-y-7 text-center">
-              {item.title}
+              {item?.title}
             </div>
           </div>
         ))}
