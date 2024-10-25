@@ -46,7 +46,7 @@ const data = [
 const DeliveringSection = () => {
   return (
     <div className="flex flex-col items-center justify-center container mx-auto">
-      <div className="text-6xl text-center mt-5">
+      <div className="md:text-6xl text-5xl text-center mt-5">
         DELIVERING SUSTAINABLE DESIGN SOLUTIONS.
       </div>
       <div className="grid md:grid-cols-4 grid-cols-1 gap-5 px-5 mt-10">
