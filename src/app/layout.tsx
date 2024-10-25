@@ -4,8 +4,8 @@ import "./globals.css";
 
 const inter = Nunito_Sans({ subsets: ['latin'] })
 export const metadata: Metadata = {
-  title: "ZerO.ai",
-  description: "ZerO.ai",
+  title: "Zer0.ai",
+  description: "Zer0.ai",
 };
 
 export default function RootLayout({
