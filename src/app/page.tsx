@@ -1,3 +1,4 @@
+import CATALOGUE from "./_components/CTA"
 import DeliveringSection from "./_components/DeliveringSection"
 import Footer from "./_components/Footer"
 import HeaderSection from "./_components/HeaderSection"
@@ -13,6 +14,7 @@ export default function Home() {
      <DeliveringSection/>
      <Mill/>
      <Plan/>
+     <CATALOGUE/>
      <Footer/>
     </>
   )
