@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 const data = [
   {
@@ -45,11 +46,11 @@ const data = [
 
 const DeliveringSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center container mx-auto">
+    <div className="flex flex-col items-center justify-center container mx-auto mb-20">
       <div className="md:text-6xl text-5xl text-center mt-5">
         DELIVERING SUSTAINABLE DESIGN SOLUTIONS.
       </div>
-      <div className="grid md:grid-cols-4 grid-cols-1 gap-5 px-5 mt-10">
+      <div className="grid md:grid-cols-4 grid-cols-1 gap-10 px-5 mt-10">
         {data.length>0 &&  data.map((item) => (
           <div
             key={item?.id}
@@ -66,6 +67,11 @@ const DeliveringSection = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className='mt-10'>
+        <Button size="xl" className='text-xl rounded-full bg-orange-500 hover:bg-orange-700'>
+          Get Started Now
+        </Button>
       </div>
     </div>
   )
