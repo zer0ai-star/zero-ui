@@ -8,7 +8,7 @@ const CATALOGUE = () => {
         <div className="md:text-6xl text-4xl text-center text-stone-800 tracking-wide md:px-24  md:leading-[70px] ">
           A CONSCIOUS STEP TOWARDS SUSTAINABILITY.
         </div>
-        <div className='grid grid-cols-2 gap-10'>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-10 px-10 md:px-2'>
           <div className="flex flex-col items-center justify-center px-14 py-10 bg-gradient-to-r  from-[#d8e8dfd1] to-[#F2EEDE] rounded-tl-[100px]">
             <div className='text-2xl'>Brand</div>
             <Image src={'/cta1.png'} alt="image" height={100} width={100} className='mt-5'/>
