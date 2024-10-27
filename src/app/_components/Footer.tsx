@@ -9,7 +9,7 @@ const Footer = () => {
           <Image src={'/logo.png'} alt="logo" height={120} width={120} />
         </div>
         <div className="absolute right-10">
-          <div className='flex gap-3 text-white text-xl '>
+          <div className='flex gap-3 text-white md:text-xl text-md '>
             <div className='text-right'>769 BROADWAY  <br />  #1106 MANHATTAN <br /> NY 10003 <br /> USA</div>
             <MapPin className='h-10 w-10 text-white ' />
           </div>
