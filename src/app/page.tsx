@@ -1,3 +1,4 @@
+import Blogs from "./_components/Blogs"
 import CATALOGUE from "./_components/CTA"
 import DeliveringSection from "./_components/DeliveringSection"
 import Footer from "./_components/Footer"
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
      <HeaderSection/>
+     <Blogs/>
      <Section/>
      <DeliveringSection/>
      <Mill/>
