@@ -17,8 +17,8 @@ const BlogCard = ({ post }:any) => {
               src={post.coverImage.url}
               alt={post.title}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              height={100}
-              width={100}
+              height={500}
+              width={500}
             />
             {post.coverImage.photographer && (
               <div className="absolute bottom-0 right-0 bg-black/50 text-white text-xs p-1">
@@ -33,7 +33,7 @@ const BlogCard = ({ post }:any) => {
         )}
       </div>
       <div className="p-4 ">
-        <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-600 h-12">
+        <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-600  line-clamp-2">
           {post.title}
         </h3>
         <p className="text-gray-600 text-sm mb-3 line-clamp-2">{post.brief}</p>

@@ -14,6 +14,7 @@ const Blogs = () => {
         const query = `
           query Publication {
             publication(host: "futureoffashion123.hashnode.dev") {
+             id
               isTeam
               title
               posts(first: 10) {
